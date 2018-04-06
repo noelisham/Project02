@@ -1,0 +1,31 @@
+.background    { background: linear-gradient(turquoise, skyblue, royalblue);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: linear-gradient(deepskyblue, dodgerblue ); }
+.wall          { background: bisque;   }
+.floater { background: lightcyan;    }
+
+
+
+.actor  { position: absolute;  }
+.coin   {background-image: url("images/coin.png");
+          background-size: 12px 12px;}
+.player { background-image: url("images/boy.gif");
+          background-size: 16px 30px; }
+.shell  { background-image: url("images/seashell.png");
+          background-size: 20px 20px; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
